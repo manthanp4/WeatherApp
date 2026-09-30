@@ -75,3 +75,23 @@ The purpose of this project was to practice building a real-world Android applic
 ### Error Page
 
 ![Error Page](screenshots/errorpage.png)
+
+## ⚙️ Setup
+
+1. Clone the repository.
+
+2. Open the project in Android Studio.
+
+3. Create or open the `local.properties` file in the project root.
+
+4. Add your WeatherAPI key:
+
+   `WEATHER_API_KEY=YOUR_WEATHERAPI_KEY`
+
+5. Replace `YOUR_WEATHERAPI_KEY` with your own WeatherAPI key.
+
+6. Sync the project with Gradle.
+
+7. Build and run the application.
+
+> **Note:** Never commit your API key to GitHub. The `local.properties` file is ignored by Git.
