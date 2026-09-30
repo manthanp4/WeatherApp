@@ -57,3 +57,21 @@ The purpose of this project was to practice building a real-world Android applic
 ## 👨‍💻 Author
 
 **Manthan Panchal**
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](screenshots/homepage.png)
+
+### Loading Page
+
+![Loading Page](screenshots/loadingpage.png)
+
+### Weather Result
+
+![Weather Result](screenshots/output.png)
+
+### Error Page
+
+![Error Page](screenshots/errorpage.png)
