@@ -1,5 +1,6 @@
 package com.example.weatherapp;
 
+import com.example.weatherapp.BuildConfig;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
             ApiService apiService = RetrofitClient.getInstance().create(ApiService.class);
             Call<WeatherResponse> call =
-                    apiService.getWeather(getString(R.string.api_key), cityName, "no");
+                    apiService.getWeather(BuildConfig.WEATHER_API_KEY, cityName, "no");
             call.enqueue(new Callback<WeatherResponse>() {
                 @Override
                 public void onResponse(Call<WeatherResponse> call, Response<WeatherResponse> response) {
