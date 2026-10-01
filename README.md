@@ -60,21 +60,15 @@ The purpose of this project was to practice building a real-world Android applic
 
 ## 📸 Screenshots
 
-### Home Page
+Screenshots of the application will be added here.
 
-![Home Page](screenshots/homepage.png)
+| Home | Loading |
+|---|---|
+| <img src="screenshots/homepage.png" width="250"> | <img src="screenshots/loadingpage.png" width="250"> |
 
-### Loading Page
-
-![Loading Page](screenshots/loadingpage.png)
-
-### Weather Result
-
-![Weather Result](screenshots/output.png)
-
-### Error Page
-
-![Error Page](screenshots/errorpage.png)
+| Result | Error |
+|---|---|
+| <img src="screenshots/output.png" width="250"> | <img src="screenshots/errorpage.png" width="250"> |
 
 ## ⚙️ Setup
 
